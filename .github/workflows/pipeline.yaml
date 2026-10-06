@@ -11,3 +11,6 @@ jobs:
 
       - name: mostrar
         run: echo $(ls)
+
+      - name: abrir codigo
+        run: python calc.py
